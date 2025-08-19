@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-    int a;
-    printf("enter a");
+    int num;
+    printf("enter a number:");
     scanf("%d",&a);
-    printf(" %d",a*1);
-    printf(" %d",a*2);
-    printf(" %d",a*3);
+    printf(" %d*1=%d\n",num,num*1);
+    printf(" %d*2=%d\n",num,num*2);
+    printf("%d*3=%d\n",num,num*3);
     printf(" %d",a*4);
     printf(" %d",a*5);
     printf(" %d",a*6);
@@ -14,4 +14,5 @@ int main(){
     printf(" %d",a*9);
     printf(" %d",a*10);
     return 0;
+
 }
