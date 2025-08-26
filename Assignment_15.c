@@ -2,9 +2,9 @@
 #include <math.h>
 
 int main() {
-    double a, b, c, d, root1, root2, realPart, imagPart;
+    double a, b, c, disriminatinant, root1, root2, realPart, imagPart;
 
-    // Input coefficients
+    
     printf("Enter coefficients a, b and c: ");
     scanf("%lf %lf %lf", &a, &b, &c);
 
@@ -15,7 +15,7 @@ int main() {
 
     d = b * b - 4 * a * c;  
 
-    if (d > 0) {
+    if (discriminant > 0) {
         
         root1 = (-b + sqrt(d)) / (2 * a);
         root2 = (-b - sqrt(d)) / (2 * a);
@@ -23,7 +23,7 @@ int main() {
         printf("Root1 = %.2lf\n", root1);
         printf("Root2 = %.2lf\n", root2);
     }
-    else if (d == 0) {
+    else if (discriminant == 0) {
         
         root1 = -b / (2 * a);
         printf("Roots are real and equal:\n");
@@ -40,3 +40,4 @@ int main() {
 
     return 0;
 }
+
