@@ -15,6 +15,7 @@ int main()
 	printf("\n ceiling value for poditive number:%f",c);
 	printf("\n ceiling value for negative number:%f",c1);
 	printf("\n floor value for positive:%f",f);
-	printf("\n floor value for negative number:",f1);	
+	printf("\n floor value for negative number:%f",f1);	
 	return 0;
 }
+
